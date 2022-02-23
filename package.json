@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "babel ./scripts/store-asset.js -d dist",
+   "start": "npm run build && node dist/scripts/store-asset.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.8.4",
+    "nft.storage": "^6.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
